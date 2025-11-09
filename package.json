@@ -1,0 +1,48 @@
+{
+  "name": "@cheeseswapfinance/web3-react-core",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "7.1.1",
+  "description": "Simple, maximally extensible, dependency minimized framework.",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "ethereum",
+    "javascript",
+    "typescript",
+    "web3",
+    "context",
+    "frontend",
+    "dapp"
+  ],
+  "author": "Tanvir Rahaman <bitbd83@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cheeseswapbsc/web3-react-core.git"
+  },
+  "main": "dist/index.js",
+  "module": "dist/core.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "lint": "tsdx lint src test"
+  },
+  "dependencies": {
+    "@ethersproject/keccak256": "^5.0.0-beta.130",
+    "@cheeseswapfinance/web3-react-abstract-connector": "^7.0.1",
+    "@cheeseswapfinance/web3-react-types": "^7.0.1",
+    "tiny-invariant": "^1.0.6",
+    "tiny-warning": "^1.0.3",
+    "tsdx": "^0.11.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "license": "GPL-3.0-or-later"
+}
