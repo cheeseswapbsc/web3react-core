@@ -34,6 +34,8 @@
     "lint": "tsdx lint src test"
   },
   "dependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8",
     "@ethersproject/keccak256": "^5.0.0-beta.130",
     "@cheeseswapfinance/web3-react-abstract-connector": "^7.0.1",
     "@cheeseswapfinance/web3-react-types": "^7.0.1",
@@ -41,8 +43,9 @@
     "tiny-warning": "^1.0.3",
     "tsdx": "^0.11.0"
   },
-  "peerDependencies": {
-    "react": ">=16.8"
+  "devDependencies": {
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4"
   },
   "license": "GPL-3.0-or-later"
 }
